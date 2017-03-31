@@ -33,12 +33,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://104.197.25.24:8081/repository/maven-releases/</url>
+            <url>http://104.197.25.24:8081/repository/new-relase/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://104.197.25.24:8081/repository/maven-snapshots/</url>
+            <url>http://104.197.25.24:8081/repository/new-snap/</url>
         </snapshotRepository>
     </distributionManagement>
     <build>
