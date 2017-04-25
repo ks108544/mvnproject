@@ -23,6 +23,7 @@
         <developerConnection>scm:git:https://github.com/javaee-samples/javaee7-simple-sample.git</developerConnection>
         <tag>v1.5</tag>
     </scm>
+<!--
     <developers>
         <developer>
             <name>Suresh Korrapati</name>
@@ -41,7 +42,8 @@
             <url>http://130.211.115.251:8081/repository/suresh-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
-    <build>
+--!>    
+	<build>
     	<finalName>javaee7-simple-sample</finalName>
         <pluginManagement>
             <plugins>
