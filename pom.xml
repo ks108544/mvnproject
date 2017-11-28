@@ -4,7 +4,7 @@
     <groupId>org.javaee7.sample</groupId>
     <artifactId>javaee7-simple-sample</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>javaee7-simple-sample</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -23,25 +23,7 @@
         <developerConnection>scm:git:https://github.com/javaee-samples/javaee7-simple-sample.git</developerConnection>
         <tag>v1.5</tag>
     </scm>
-    <developers>
-        <developer>
-            <name>Suresh Korrapati</name>
-            <email>ks108544@gmail.com</email>
-        </developer>
-    </developers>
-    <distributionManagement>
-        <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://130.211.115.251:8081/repository/suresh-relese/</url>
-        </repository>
-        <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://130.211.115.251:8081/repository/suresh-snapshot/</url>
-        </snapshotRepository>
-    </distributionManagement>
-    <build>
+        <build>
     	<finalName>javaee7-simple-sample</finalName>
         <pluginManagement>
             <plugins>
