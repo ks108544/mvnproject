@@ -24,15 +24,10 @@
         <tag>v1.5</tag>
     </scm>
     <distributionManagement>
-        <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://localhost:9081/repository/war_repo/</url>
-        </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://localhost:9081/repository/FEDEX_repo</url>
+            <url>http://localhost:9081/repository/war_repo/</url>
         </snapshotRepository>
     </distributionManagement>
         <build>
