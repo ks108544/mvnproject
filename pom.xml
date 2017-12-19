@@ -37,7 +37,6 @@
     </distributionManagement>
         <build>
     	<finalName>javaee7-simple-sample</finalName>
-        <directory>build\war</directory>
         <pluginManagement>
             <plugins>
                 <plugin>
