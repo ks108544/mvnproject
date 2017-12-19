@@ -23,6 +23,18 @@
         <developerConnection>scm:git:https://github.com/javaee-samples/javaee7-simple-sample.git</developerConnection>
         <tag>v1.5</tag>
     </scm>
+    <distributionManagement>
+        <repository>
+            <id>deployment</id>
+            <name>Internal Releases</name>
+            <url>http://localhost:9081/repository/war_repo/</url>
+        </repository>
+        <snapshotRepository>
+            <id>deployment</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://localhost:9081/repository/FEDEX_repo</url>
+        </snapshotRepository>
+    </distributionManagement>
         <build>
     	<finalName>javaee7-simple-sample</finalName>
         <directory>build\war</directory>
